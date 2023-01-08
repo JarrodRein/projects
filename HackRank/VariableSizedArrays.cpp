@@ -21,44 +21,53 @@ int main() {
     
   for(int i =0; i< num1; i++){
       cin >> num3;
-      cout << num3 << " num3 " << endl;
+     // cout << num3 << " num3 " << endl;
       
       for(int j =0; j< num3; j++){
       cin >> num4;
       
       vec.push_back(num4);
   }
+  
   mainvec.push_back(vec);
+  vec.clear();
   }
       
-       for(int i =0; i< num2; i++){
-      cin >> num5;
-      cout << num5 << " num5 "<< endl;
+//        for(int i =0; i< num2; i++){
+//       cin >> num5;
+//       cout << num5 << " num5 "<< endl;
       
       
       
-  }
-   for(int i =0; i< num2; i++){
-      cin >> num6;
-      cout << num6 << " num6 " << endl;
+//   }
+//    for(int i =0; i< num2; i++){
+//       cin >> num6;
+//       cout << num6 << " num6 " << endl;
       
      
       
-  }
-  
-  
-//   for(int j =0; j< vec.size(); j++){
-//     //  cin >> num3;
-      
-//       cout << vec.at(j);
 //   }
+  
+  
+// //   for(int j =0; j< vec.size(); j++){
+// //     //  cin >> num3;
+      
+// //       cout << vec.at(j);
+// //   }
 
 
- for (int i = 0; i < mainvec.size(); i++) {
-        for (int j = 0; j < mainvec[i].size(); j++)
-          cout << mainvec[i][j] << " ";
-           cout << endl;
- }
+//  for (int i = 0; i < mainvec.size(); i++) {
+//         for (int j = 0; j < mainvec[i].size(); j++)
+//           cout << mainvec[i][j] << " ";
+//            cout << endl;
+//  }
+
+for (int i = 0; i < num2; i++)
+    {
+        int mainArrIndex, innerArrIndex;
+        cin >> mainArrIndex >> innerArrIndex;
+        cout << mainvec[mainArrIndex][innerArrIndex] << "\n";
+    } 
       
     return 0;
 }
