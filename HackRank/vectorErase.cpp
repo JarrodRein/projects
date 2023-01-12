@@ -21,7 +21,7 @@ int main() {
     
     cin >> num3;
     
-    vec.erase(vec.begin()+num3);
+    vec.erase(vec.begin()+num3-1);
     
     cin >> num4 >> num5;
     
