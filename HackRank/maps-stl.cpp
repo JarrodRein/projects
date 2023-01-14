@@ -21,19 +21,24 @@ int main() {
         
         if(num2 == 2 || num2 ==3){
              cin >> word;
+    map.insert(make_pair(word, 0));
+
         } else{
             cin >> word >> num3;
+            cout << word << num3 << endl;
+    map.insert(make_pair(word, num3));
+
         }
         
         
-        cout << num2 <<" "<<  word  <<" "<< num3 << endl;
+      //  cout << num2 <<" "<<  word  <<" "<< num3 << endl;
         
         num2=0;
         num3 =0;
         word ="";
     }
     
-    map.insert(make_pair("hello", 9));
+  //  map.insert(make_pair("hello", 9));
     
     for(auto it = map.cbegin(); it != map.cend(); ++it)
 {
