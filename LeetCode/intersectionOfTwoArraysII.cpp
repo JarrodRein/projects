@@ -10,8 +10,9 @@ public:
                     count++;
                     vec.push_back(nums1[i]);
                 }
-                count =0;
+                
             }
+            count =0;
         }
         return vec;
     }
