@@ -7,7 +7,12 @@
 using namespace std;
 
 // Write your Student class here
-
+class Student {
+  int score;
+  public:
+  int input(){return score;} 
+   
+};
 int main() {
     int n; // number of students
     cin >> n;
