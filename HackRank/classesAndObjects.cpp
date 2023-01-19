@@ -9,8 +9,10 @@ using namespace std;
 // Write your Student class here
 class Student {
   int score;
+  int totalScore;
   public:
   int input(){return score;} 
+  int calculateTotalScore(){return totalScore;}
    
 };
 int main() {
