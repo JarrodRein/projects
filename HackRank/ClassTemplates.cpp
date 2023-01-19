@@ -10,9 +10,11 @@ using namespace std;
 template <class T>
 class AddElements {
 T element1;
+T element2;
 public:
 AddElements (T arg) {element1=arg;}
-
+T add (T element2) {return element1 +element2;}
+T concatenate(T element2){ return element1 + element2;}
 };
 
 int main () {
