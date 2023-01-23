@@ -6,4 +6,4 @@
     3. Type your code immediately after comment. Don't leave any blank line.
 */
 SELECT NAME FROM STUDENTS 
-WHERE MARKS >75;
+WHERE MARKS >75 ORDER BY RIGHT(NAME, 3) ASC, ID ASC;
