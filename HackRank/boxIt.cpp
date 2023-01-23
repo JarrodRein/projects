@@ -49,7 +49,25 @@ class Box{
         this->h = box.h;
     }
     
-    
+    // int getLength(); // Return box's length
+    int getLength(){
+     return this->l;   
+    }
+// int getBreadth (); // Return box's breadth
+    int getBreadth(){
+        return this->b;
+    }
+// int getHeight ();  //Return box's height
+    int getHeight(){
+        return this->h;
+    }
+// long long CalculateVolume(); // Return the volume of the box
+
+long long CalculateVolume(){
+    long long res;
+    res = (long long) this->l * (long long) this->b * (long long) this->l;
+    return res;
+}
 };
 
 
