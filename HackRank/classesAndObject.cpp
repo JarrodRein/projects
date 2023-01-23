@@ -12,7 +12,7 @@ class Student {
   vector<int> totalScore;
   public:
   void input(){
-      for(int i =0; i<4; i++){
+      for(int i =0; i<5; i++){
                   cin >> score;
                        totalScore.push_back(score);
 
