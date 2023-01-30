@@ -5,7 +5,6 @@ using namespace std;
  * Create classes Rectangle and RectangleArea
  */
 class Rectangle{
-    private:
     
     public:
     int h;
