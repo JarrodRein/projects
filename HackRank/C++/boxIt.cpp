@@ -24,10 +24,9 @@ using namespace std;
 //ostream& operator<<(ostream& out, Box& B)
 
 class Box{
-    int temp;
-    int l; 
-    int b; 
-    int h;
+    int l, b, h;
+    bool operator<(const Box &b) const;
+   friend ostream& operator<<(ostream& out, Box& B);
     
     public:
     Box(){
@@ -65,8 +64,20 @@ class Box{
 
 long long CalculateVolume(){
     long long res;
-    res = (long long) this->l * (long long) this->b * (long long) this->l;
+    res = (long long) this->l * (long long) this->b * (long long) this->h;
     return res;
+}
+//Overload operator << as specified
+bool operator<(Box& b) {
+    return (this->l < b.l) || (this->b < b.b && this->l == b.l) || (this->h < b.h && this->b == b.b && this->l == b.l);
+ 
+}
+
+//Overload operator << as specified
+//ostream& operator<<(ostream& out, Box& B)
+friend ostream& operator<<(ostream& out, Box& b) {
+    out << b.l << " " << b.b << " " << b.h;
+    return out;
 }
 };
 
