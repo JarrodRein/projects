@@ -7,3 +7,6 @@ Array.prototype.myMap = function(callback) {
     // Only change code above this line
     return newArray;
   };
+
+  //this is for referencing better functionallity
+  // (https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-implement-map-on-a-prototype/301230)
