@@ -1,9 +1,8 @@
 #include <iostream>
 
 using namespace std;
-// prototype
 
-int add(int, int);
+extern int add(int, int);
 
 int main()
 {
@@ -11,8 +10,3 @@ int main()
     cout << n << endl;
 }
 
-int add(int a, int b)
-{
-    int r = a + b;
-    return r;
-}
