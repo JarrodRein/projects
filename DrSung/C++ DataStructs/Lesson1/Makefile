@@ -1,5 +1,5 @@
-a.out: Pointers.o prog1.o prog2.out
-	g++ -g main.o prog1.o prog2.o
+a.out: Pointers.o prog1.o prog2.o
+	g++ -g Pointers.o prog1.o prog2.o
 
 Pionters.o: Pointers.cpp
 	g++ -c -g Pionters.cpp
