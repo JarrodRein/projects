@@ -1,0 +1,14 @@
+[debug] [2023-02-26T02:12:37.710Z] ----------------------------------------------------------------------
+[debug] [2023-02-26T02:12:37.712Z] Command:       /usr/local/bin/firebase /Users/jarrodrein/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2023-02-26T02:12:37.712Z] CLI Version:   11.14.1
+[debug] [2023-02-26T02:12:37.712Z] Platform:      darwin
+[debug] [2023-02-26T02:12:37.712Z] Node Version:  v16.16.0
+[debug] [2023-02-26T02:12:37.717Z] Time:          Sat Feb 25 2023 20:12:37 GMT-0600 (Central Standard Time)
+[debug] [2023-02-26T02:12:37.717Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-26T02:12:42.770Z] Error: Timed out.
+    at Timeout._onTimeout (/Users/jarrodrein/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
