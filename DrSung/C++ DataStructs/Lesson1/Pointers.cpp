@@ -6,6 +6,7 @@ extern int add(int, int);
 extern int mul(int, int);
 extern void pointer_concept();
 extern void deref_demo();
+extern void pointer_arithmetic();
 
 int main()
 {
@@ -16,5 +17,6 @@ int main()
 
 pointer_concept();
 deref_demo();
+pointer_arithmetic();
 }
 

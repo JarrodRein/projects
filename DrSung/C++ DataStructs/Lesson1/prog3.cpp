@@ -4,14 +4,11 @@
 
 using namespace std;
 
-int mul(int a, int b){
-    int r = a *b;
-    return r;
-};
 
 
-void deref_demo(){
-    cout << "dereference demo" << endl;
+
+void pointer_arithmetic(){
+    cout << "pointer arithmetic" << endl;
 
     int n = 15;
 
