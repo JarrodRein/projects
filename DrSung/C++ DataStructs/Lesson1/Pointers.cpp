@@ -5,6 +5,7 @@ using namespace std;
 extern int add(int, int);
 extern int mul(int, int);
 extern void pointer_concept();
+extern void deref_demo();
 
 int main()
 {
@@ -14,5 +15,6 @@ int main()
 //     cout << n << endl;
 
 pointer_concept();
+deref_demo();
 }
 
