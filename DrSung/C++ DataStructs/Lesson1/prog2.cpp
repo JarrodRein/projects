@@ -25,5 +25,6 @@ void deref_demo(){
 
     assert(n == *p);
     *p = 30;
+    assert(n == *p);
 
 }
