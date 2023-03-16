@@ -35,6 +35,7 @@
   ],
   "files.associations": {
     "vector": "cpp",
-    "map": "cpp"
+    "map": "cpp",
+    "iostream": "cpp"
   }
 }
