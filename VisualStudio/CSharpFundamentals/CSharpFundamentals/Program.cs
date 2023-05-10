@@ -18,6 +18,7 @@ namespace ConsoleApp1
             int userNumber = Convert.ToInt32(Console.ReadLine());
             string result = (userNumber > 0 && userNumber < 10) ? "Valid" : "Invalid";
             Console.WriteLine(result);
+
         }
     }
 }
