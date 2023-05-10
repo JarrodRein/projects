@@ -1,0 +1,15 @@
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\Q1 Program 4.exe
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\Q1 Program 4.deps.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\Q1 Program 4.runtimeconfig.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\Q1 Program 4.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\ref\Q1 Program 4.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\bin\Debug\net6.0\Q1 Program 4.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.csproj.AssemblyReference.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.AssemblyInfoInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.AssemblyInfo.cs
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.csproj.CoreCompileInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\ref\Q1 Program 4.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q1 Program 4\Q1 Program 4\obj\Debug\net6.0\Q1 Program 4.genruntimeconfig.cache
