@@ -1,0 +1,15 @@
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.csproj.AssemblyReference.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.AssemblyInfoInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.AssemblyInfo.cs
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.csproj.CoreCompileInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\CSharpFundamentals.exe
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\CSharpFundamentals.deps.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\CSharpFundamentals.runtimeconfig.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\CSharpFundamentals.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\ref\CSharpFundamentals.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\bin\Debug\net6.0\CSharpFundamentals.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\ref\CSharpFundamentals.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\CSharpFundamentals\CSharpFundamentals\obj\Debug\net6.0\CSharpFundamentals.genruntimeconfig.cache

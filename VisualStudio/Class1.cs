@@ -1,9 +1,26 @@
 ﻿using System;
 
-public class Class1
+
+namespace Class1
 {
-	public Class1()
+	//public Class1()
+	//{
+	//	//yes
+	//	Console.WriteLine("Enter number between 1-10");
+	//	int userNumber = Console.ReadLine();
+	//	string result = (userNumber > 0 && userNumber < 10) ? "Valid" : "Invalid";
+	//	Console.WriteLine(result);
+
+
+	//}
+
+	static void Main(string[] args)
 	{
-		//yes
+		Console.WriteLine("Enter number between 1-10");
+		int userNumber = Console.ReadLine();
+		string result = (userNumber > 0 && userNumber < 10) ? "Valid" : "Invalid";
+		Console.WriteLine(result);
 	}
+
+	
 }
