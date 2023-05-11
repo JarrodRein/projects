@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Q2_Program_1__1_100_while_divisible_by_3_
+build_property.ProjectDir = D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q2 Program 1 (1-100 while divisible by 3)\Q2 Program 1 (1-100 while divisible by 3)\
