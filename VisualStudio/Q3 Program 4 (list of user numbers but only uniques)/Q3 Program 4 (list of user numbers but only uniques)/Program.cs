@@ -1,4 +1,7 @@
-﻿string answer = "okkk";
+﻿using System;
+using System.Collections.Generic;
+
+string answer = "okkk";
 int collect = 0;
 int count = 0;
 int counter = 0;
