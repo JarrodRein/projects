@@ -25,7 +25,4 @@ Console.WriteLine(cArr);
 
 
 
-string results = string.Join(", ", ints.ToArray());
-
-Console.WriteLine(collect);
 
