@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Q3 Program 4 (list of user numbers but only uniques)/1.0.0": {
+        "runtime": {
+          "Q3 Program 4 (list of user numbers but only uniques).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Q3 Program 4 (list of user numbers but only uniques)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

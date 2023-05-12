@@ -6,12 +6,14 @@ int collect = 0;
 int count = 0;
 int counter = 0;
 List<int> ints = new List<int>();
+List<int> intss = new List<int>();
+
 while (true)
 {
-    Console.WriteLine("Enter 5 unique numbers");
+    Console.WriteLine("Enter any amount of numbers and type Quit to quit");
 
     answer = Console.ReadLine();
-    if (answer == "Ok" || answer == "" || answer == "ok" || counter == 5)
+    if (answer == "Quit" || answer == "" || answer == "quit" )
     {
         break;
     }
@@ -19,35 +21,28 @@ while (true)
 
     collect = Convert.ToInt32(answer);
 
-    foreach (var num in ints)
-    {
-        if (num == collect)
-        {
-            Console.WriteLine("Enter new number");
-            count++;
-            continue;
-        }
-
-    }
-
+    ints.Add(collect);
     //  Console.WriteLine(collect);
-    if (count == 0)
-    {
-        ints.Add(collect);
-    }
+    
 
-
-    count = 0;
-    counter++;
 
 }
-var resultsOfSum = 0;
-foreach (var inter in ints)
-{
-    resultsOfSum += inter;
-}
 
-ints.Sort();
+var noDupes = ints.Distinct().ToList();
+
+//for(var i =0; i < ints.Count; i++)
+//{
+//    for(var z = 0; z < ints.Count; z++)
+//    {
+//        if (intss.Contains(ints[i])) { continue; }
+       
+//    }
+//}
+
+
 string result = string.Join(", ", ints.ToArray());
 Console.WriteLine(result);
-Console.WriteLine(resultsOfSum);
+
+
+string results = string.Join(", ", noDupes.ToArray());
+Console.WriteLine(results);
