@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj": {}
+  },
+  "projects": {
+    "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj",
+        "projectName": "Q3 Program 3 (5 unique numbers to sort)",
+        "projectPath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj",
+        "packagesPath": "C:\\Users\\jarro\\.nuget\\packages\\",
+        "outputPath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
