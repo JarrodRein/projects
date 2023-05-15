@@ -1,0 +1,15 @@
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\bin\Debug\net6.0\Q3 Program 2.exe
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\bin\Debug\net6.0\Q3 Program 2.deps.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\bin\Debug\net6.0\Q3 Program 2.runtimeconfig.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\bin\Debug\net6.0\Q3 Program 2.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\bin\Debug\net6.0\Q3 Program 2.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.csproj.AssemblyReference.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.AssemblyInfoInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.AssemblyInfo.cs
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.csproj.CoreCompileInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\refint\Q3 Program 2.dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\Q3 Program 2.genruntimeconfig.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q3 Program 2\Q3 Program 2\obj\Debug\net6.0\ref\Q3 Program 2.dll

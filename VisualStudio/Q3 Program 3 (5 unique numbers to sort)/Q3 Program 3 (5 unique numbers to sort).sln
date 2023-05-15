@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q3 Program 3 (5 unique numbers to sort)", "Q3 Program 3 (5 unique numbers to sort)\Q3 Program 3 (5 unique numbers to sort).csproj", "{3DB2A8E8-F2DC-468B-8091-EAAD3400786F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB2A8E8-F2DC-468B-8091-EAAD3400786F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB2A8E8-F2DC-468B-8091-EAAD3400786F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB2A8E8-F2DC-468B-8091-EAAD3400786F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB2A8E8-F2DC-468B-8091-EAAD3400786F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1623F848-8FB6-4183-ADE9-22F9ED860851}
+	EndGlobalSection
+EndGlobal
