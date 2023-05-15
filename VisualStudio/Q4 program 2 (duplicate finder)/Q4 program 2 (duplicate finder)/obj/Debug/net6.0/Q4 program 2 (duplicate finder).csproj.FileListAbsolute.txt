@@ -1,0 +1,15 @@
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\bin\Debug\net6.0\Q4 program 2 (duplicate finder).exe
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\bin\Debug\net6.0\Q4 program 2 (duplicate finder).deps.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\bin\Debug\net6.0\Q4 program 2 (duplicate finder).runtimeconfig.json
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\bin\Debug\net6.0\Q4 program 2 (duplicate finder).dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\bin\Debug\net6.0\Q4 program 2 (duplicate finder).pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).csproj.AssemblyReference.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).GeneratedMSBuildEditorConfig.editorconfig
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).AssemblyInfoInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).AssemblyInfo.cs
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).csproj.CoreCompileInputs.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\refint\Q4 program 2 (duplicate finder).dll
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).pdb
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\Q4 program 2 (duplicate finder).genruntimeconfig.cache
+D:\job stuff\Projects\visualStudioProjects\VisualStudio\Q4 program 2 (duplicate finder)\Q4 program 2 (duplicate finder)\obj\Debug\net6.0\ref\Q4 program 2 (duplicate finder).dll

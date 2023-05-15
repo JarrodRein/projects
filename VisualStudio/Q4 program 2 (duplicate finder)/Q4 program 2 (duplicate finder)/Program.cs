@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 string input = " ";
 int num = 0;
 Console.WriteLine("Enter numbers seperated by - ");
@@ -16,6 +17,12 @@ Console.WriteLine("Enter numbers seperated by - ");
 
 
 input = Console.ReadLine();
+
+   if(String.IsNullOrWhiteSpace(input))
+{
+    System.Environment.Exit(-1);
+}
+
 
 var lists = new List<int>();
 
