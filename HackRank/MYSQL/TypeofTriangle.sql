@@ -1,0 +1,1 @@
+Select IF(A=B And B=C, "Equilateral", IF(A=B OR C=A, "Isosceles", IF(A!=B And B!=C, IF(A+B<C, "Not A Triangle", "Scalene"), "NO"))) from TRIANGLES;
