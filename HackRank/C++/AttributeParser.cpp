@@ -45,7 +45,7 @@ int main() {
             string attrName, eq, attrValue;
             while (ss >> attrName >> eq >> attrValue) {
                 // Remove quotes from value
-                attrValue = attrValue.substr(1, attrValue.length() - 2);
+                attrValue = attrValue.substr(1, attrValue.length() - 3);
                 attrMap[tagPath + "~" + attrName] = attrValue;
             }
         }
