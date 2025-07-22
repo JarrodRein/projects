@@ -6,8 +6,8 @@ if __name__ == '__main__':
         students.append([name, score])
        # print(name)
 
-    scores = [s[1] for s in students]
-    sorted(scores)
+    scores = sorted([s[1] for s in students])
+    #sorted(scores)
     second_lowest = scores[1]
     #print(score[1])
 
