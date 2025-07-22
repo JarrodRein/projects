@@ -11,7 +11,7 @@ if __name__ == '__main__':
     second_lowest = scores[1]
     #print(score[1])
 
-    result = [name for name, score in students if score == second_lowest]
-    sorted(result)
+    result = sorted([name for name, score in students if score == second_lowest])
+   # sorted(result)
     for name in result:
         print(name)
