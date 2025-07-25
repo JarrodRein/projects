@@ -7,5 +7,7 @@ if __name__ == '__main__':
         student_marks[name] = scores
     query_name = input()
     
+    #adding the scores for the query_name
+    #and calculating the average
     avg = sum(student_marks[query_name]) / len(student_marks[ query_name])
     print(f"{avg:.2f}")
