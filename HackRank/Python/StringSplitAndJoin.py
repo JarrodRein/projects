@@ -1,4 +1,6 @@
 
+# This code is part of a solution for the HackRank Python challenge "String Split and Join".
+# It defines a function that splits a string into words and joins them with hyphens.
 
 def split_and_join(line):
     line = line.split(" ")  # Split the string into a list of words
