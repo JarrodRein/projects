@@ -1,5 +1,5 @@
 def mutate_string(string, position, character):
-    string = string[:position] + character + string[position+1:]
+    string = string[:position] + character + string[position+1:] #slice the string to replace the character
     return string
 
 if __name__ == '__main__':
