@@ -24,6 +24,8 @@ class Solution:
         INT_MIN = -2**31
         INT_MAX = 2**31 - 1
 
+        # Return result within the 32-bit signed integer range
+        # could be if elif or just if
         if result < INT_MIN:
             return INT_MIN
         if result > INT_MAX:
