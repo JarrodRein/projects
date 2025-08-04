@@ -13,4 +13,6 @@ class Solution:
             i += 1
         elif s[0] =='+':
             i += 1
-        
+        while i < len(s) and s[i].isdigit():
+            result = result * 10 + int(s[i])
+            i +=1
