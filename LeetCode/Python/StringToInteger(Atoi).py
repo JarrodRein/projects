@@ -21,5 +21,6 @@ class Solution:
         result *= sign
 
         # Check 32-bit signed integer range
-        INT_MIN = 2**31
+        INT_MIN = -2**31
         INT_MAX = 2**31 - 1
+
