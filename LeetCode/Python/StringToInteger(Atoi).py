@@ -3,3 +3,14 @@ class Solution:
         s = s.lstrip()
         if not s:
             return 0
+
+        sign = 1 
+        i = 0
+        result = 0
+
+        if s[0] =='-':
+            sign = -1
+            i += 1
+        elif s[0] =='+':
+            i += 1
+        
