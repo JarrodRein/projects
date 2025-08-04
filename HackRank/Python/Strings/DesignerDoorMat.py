@@ -1,10 +1,9 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 
-n = input()
-line = n.split(" ")
-m = line[1]
-n = line[0]
-
+n, m = map(int, input().split())
 #print(line)
-print(n)
+#print(n)
+
+for i in range(1, n, 2):
+    print((".|." * i).center(m, "-"))
