@@ -5,5 +5,5 @@ class Solution:
             return False
         if s == s[::-1]:
             return True
-        elif:
+        else:
             return False
