@@ -6,7 +6,7 @@ def print_rangoli(size):
     #print(alphabet)
     
     #top half
-    for i in range (0, size-1):
+    for i in range (size-1, 0, -1):
         print((alphabet[i]).center(size,"-"))
     
     print(alphabet[0].center(size, "-"))
