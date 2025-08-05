@@ -7,9 +7,9 @@ def print_rangoli(size):
     
     #top half
     for i in range (size-1, 0, -1):
-        print((alphabet[i]).center(size,"-"))
+        print((alphabet[i]).center((size -1) *(size-1),"-"))
     
-    print(alphabet[0].center(size, "-"))
+    print(alphabet[0].center((size -1) *(size-1),"-"))
         
 
 if __name__ == '__main__':
