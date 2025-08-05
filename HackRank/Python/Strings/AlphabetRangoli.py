@@ -8,11 +8,12 @@ def print_rangoli(size):
 
     # top half
     for i in range(size - 1, 0, -1):
+        # sequence[start:stop:step]
         left = alphabet[size-1:i:-1]
         center = alphabet[i:size]
         line = '-'.join(left + center)
         print(line.center(width, '-'))
-    
+    #sequence[start:stop:step]
     full = alphabet[size-1::-1] + alphabet[1:size]
     print('-'.join(full).center(width, '-'))
         
