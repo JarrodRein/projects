@@ -3,3 +3,7 @@ class Solution:
         s = str(x)
         if s[0] == '-':
             return False
+        if s == s[::-1]:
+            return True
+        elif:
+            return False
