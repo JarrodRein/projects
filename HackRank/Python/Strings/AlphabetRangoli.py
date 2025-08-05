@@ -3,7 +3,7 @@ import string
 def print_rangoli(size):
     # your code goes here
     alphabet = list(string.ascii_lowercase)
-    print(alphabet)
+    #print(alphabet)
     
     #top half
     for i in range (0, size, 2):
