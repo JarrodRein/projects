@@ -13,7 +13,8 @@ def print_rangoli(size):
         line = '-'.join(left + center)
         print(line.center(width, '-'))
     
-    print(alphabet[0].center((size -1) *(size-1),"-"))
+    full = alphabet[size-1::-1] + alphabet[1:size]
+    print('-'.join(full).center(width, '-'))
         
 
 if __name__ == '__main__':
