@@ -16,6 +16,11 @@ def print_rangoli(size):
     full = alphabet[size-1::-1] + alphabet[1:size]
     print('-'.join(full).center(width, '-'))
         
+    for i in range (1, size):
+        left = alphabet[size-1:i:-1]
+        center = alphabet[i:size]
+        line = '-'.join(left + center)
+        print(line.center(width, '-'))
 
 if __name__ == '__main__':
     n = int(input())
