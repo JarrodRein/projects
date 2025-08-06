@@ -11,8 +11,8 @@ def solve(s):
     s3 = s.split(" ")
     s1 = s3[0]
     s2 = s3[1]
-    print(s1)
-    print(s2)
+    #print(s1)
+    #print(s2)
     return s1 + s2
 
 if __name__ == '__main__':
