@@ -12,3 +12,19 @@ class Solution:
         else:
             return first_match and self.isMatch(s[1:], p[1:])
         
+
+        
+    def isMatch2(self, s: str, p: str) -> bool:
+        @lru_cache(maxsize=None)
+        def dp(i: int, j: int) -> bool:
+            if j == len(p):
+                return i == len(s)
+
+            first_match = i < len(s) and (p[j] == s[i] or p[j] == '.')
+
+            if (j + 1) < len(p) and p[j + 1] == '*':
+                return dp(i, j + 2) or (first_match and dp(i + 1, j))
+            else:
+                return first_match and dp(i + 1, j + 1)
+
+        return dp(0, 0)
