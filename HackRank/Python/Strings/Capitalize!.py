@@ -13,7 +13,13 @@ def solve(s):
     s2 = s3[1]
     #print(s1)
     #print(s2)
-    return s1 + s2
+    s11 = s1[0].capitalize()
+    s22 = s2[0].capitalize()
+    s11 += s1[1:len(s1)]
+    s22 += s2[1:len(s2)]
+    result = s11 + " " + s22
+   
+    return result
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
