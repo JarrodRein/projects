@@ -3,6 +3,8 @@ class Solution:
         #if string is bigger than pattern. Then return false. Has to be 1 - 1
         if len(s) > len(p):
             return False
+        elif len(s) < len(p):
+            return False
         else:
             return True
         
