@@ -1,6 +1,7 @@
 def minion_game(string):
     # your code goes here
-    stuart, kevin = 0
+    stuart = 0
+    kevin = 0
     vowels = ['a', 'e', 'i', 'o', 'u']
     for i in range(0, len(string), 1):
         if string[i] in vowels:
