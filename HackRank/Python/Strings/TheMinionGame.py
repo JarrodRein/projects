@@ -1,13 +1,13 @@
-def minion_game(string):
-    # your code goes here
-    stuart = 0
-    kevin = 0
-    vowels = ['a', 'e', 'i', 'o', 'u']
-    for i in range(len(string)):
-        if string[i] in vowels:
-            kevin += len(string) - i
+def minion_game(s):
+    vowels = set('AEIOU')  # or 'aeiou' if input is lowercase
+    kevin = stuart = 0
+    n = len(s)
+
+    for i, ch in enumerate(s):
+        if ch in vowels:
+            kevin += n - i
         else:
-            stuart += len(string) - i
+            stuart += n - i
 
     if kevin > stuart:
         print("Kevin", kevin)
