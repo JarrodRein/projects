@@ -5,6 +5,8 @@ def merge_the_tools(string, k):
         # For each chunk, create a set to track seen characters
         # and a result list to store unique characters
         substring = string[i:i+k]
+        # empty set to track seen characters
+        # result list to store unique characters
         seen = set()
         result = []
         for char in substring:
