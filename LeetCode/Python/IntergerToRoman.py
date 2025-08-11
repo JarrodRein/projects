@@ -15,3 +15,5 @@ class Solution:
             while num >= value:
                 roman_numeral.append(numeral)
                 num -= value
+
+        return ''.join(roman_numeral)
