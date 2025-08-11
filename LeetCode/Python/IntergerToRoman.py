@@ -9,3 +9,9 @@ class Solution:
         (5, "V"), (4, "IV"),
         (1, "I" )
         ]
+
+        roman_numeral = []
+        for value, numeral in val_map:
+            while num >= value:
+                roman_numeral.append(numeral)
+                num -= value
