@@ -1,8 +1,7 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 
-m = int, input().split()
-m = set(m)
+m = set(input().split())     # A
 n = int(input())
 result = 'True' 
 for i in range(n):
