@@ -1,13 +1,15 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 
-m = list(map(int, input().split()))
+m = int, input().split()
 m = set(m)
 n = int(input())
 result = 'True' 
 for i in range(n):
-    a = set(map(int, input().split()))
-    result = m.issubset(a)
+    a = set( input().split())
+    if not (m < a):
+        result = 'False'
+        break
 print(result)
 #Create a set to store unique elements
 #print(m)
