@@ -1,14 +1,13 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-
-
-m = set(input().split())     # A
+# read A
+A = set(input().split())
+# read N
 n = int(input())
-result = 'True' 
-for i in range(n):
-    a = set( input().split())
-    if not (m < a):
-        result = 'False'
-        break
-print(result)
-#Create a set to store unique elements
-#print(m)
+
+ok = True
+for _ in range(n):
+    B = set(input().split())
+    if not (A > B):            # strict superset check
+        ok = False
+        break                  # early exit as soon as one fails
+
+print(ok)
