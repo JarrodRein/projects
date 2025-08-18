@@ -1,2 +1,7 @@
 n = int(input())
 s = set(map(int, input().split()))
+m = int(input())
+
+for i in range (0, m):
+    s = input()
+    print(s)
