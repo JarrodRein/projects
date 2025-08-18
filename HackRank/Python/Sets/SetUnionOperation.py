@@ -5,3 +5,7 @@
 n = int(input())
 E = set(map(int, input().split()))
 
+# read French subscribers
+b = int(input())
+F = set(map(int, input().split()))
+
