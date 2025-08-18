@@ -9,3 +9,5 @@ E = set(map(int, input().split()))
 b = int(input())
 F = set(map(int, input().split()))
 
+# number of students with at least one subscription = |E F|
+print(len(E | F)) 
