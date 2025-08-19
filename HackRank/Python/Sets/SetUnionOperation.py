@@ -6,4 +6,4 @@ m = int(input())
 s2 = set(map(int, input().split()))
 
 # Calculate the intersection of two sets
-print((s.intersection(s2)))
+print(len(s.intersection(s2)))
