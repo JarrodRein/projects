@@ -11,3 +11,6 @@ class Solution:
             "8": ["T", "U", "V"],
             "9": ["W", "X", "Y", "Z"]
         }
+        if not digits:
+            return []
+        
