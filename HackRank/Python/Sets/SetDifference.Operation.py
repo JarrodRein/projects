@@ -4,3 +4,5 @@ m = list(map(int, input().split()))
 
 n1 = int(input())
 m1 = list(map(int, input().split()))
+
+print(len(m.difference(m1)))
