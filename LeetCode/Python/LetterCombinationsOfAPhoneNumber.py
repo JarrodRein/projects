@@ -13,4 +13,6 @@ class Solution:
         }
         if not digits:
             return []
-        
+        elif len(digits) == 1:
+            return keypad_map[digits]
+        else:
