@@ -2,3 +2,6 @@
 n = int(input())
 m = set(map(int, input().split()))
 
+n1 = int(input())
+m1 = set(map(int, input().split()))
+
