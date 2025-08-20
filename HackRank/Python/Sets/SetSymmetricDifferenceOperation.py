@@ -5,3 +5,4 @@ m = set(map(int, input().split()))
 n1 = int(input())
 m1 = set(map(int, input().split()))
 
+print(len(m.symmetric_difference(m1)))
