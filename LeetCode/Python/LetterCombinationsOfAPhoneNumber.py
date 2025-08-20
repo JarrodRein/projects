@@ -14,3 +14,15 @@ class Solution:
             return []
         elif len(digits) == 1:
             return keypad_map[digits]
+        else:
+            result = []
+            def backtrack(index, path):
+                if index == len(digits):
+                    result.append("".join(path))
+                    return
+                for char in keypad_map[digits[index]]:
+                    path.append(char)
+                    backtrack(index + 1, path)
+                    path.pop()
+            backtrack(0, [])
+            return result
