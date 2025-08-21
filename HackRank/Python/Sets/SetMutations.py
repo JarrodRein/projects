@@ -17,3 +17,4 @@ for _ in range(n1):
         m.difference_update(elements)
     elif operation == "symmetric_difference_update":
         m.symmetric_difference_update(elements)
+print(sum(m))
