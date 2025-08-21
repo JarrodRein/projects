@@ -27,4 +27,11 @@ class Solution:
                             l += 1
                         while l < r and nums[r] == nums[r + 1]:
                             r -= 1
-                    
+                    elif s < target_2: # If the sum is less than the target, move the left pointer to increase the sum
+                        l += 1
+                    else: # If the sum is greater than the target, move the right pointer to decrease the sum
+                        r -= 1
+                # End of while loop, move to the next second element
+            # End of for j loop, move to the next first element
+
+        return res # Return the list of quadruplets found
