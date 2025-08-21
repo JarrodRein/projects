@@ -10,4 +10,6 @@ class Solution:
                 continue
             for j in range(i + 1, n):
                 # Skip duplicate second elements
-                
+                if j > i + 1 and nums[j] == nums[j - 1]:
+                    continue
+               
