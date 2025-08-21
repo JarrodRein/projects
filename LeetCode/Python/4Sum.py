@@ -16,4 +16,6 @@ class Solution:
                 target_2 = target - nums[i] - nums[j]
                 l, r = j + 1, n - 1  # Two pointers start after the second element and at the end of the list
                 # Move pointers towards each other
-                
+                while l < r: # Ensure pointers do not cross
+                    s = nums[l] + nums[r] # Calculate the sum of the two elements
+                   
