@@ -23,4 +23,6 @@ class Solution:
                         # Move both pointers, skipping duplicates
                         l += 1
                         r -= 1
-                        
+                        while l < r and nums[l] == nums[l - 1]:
+                            l += 1
+                       
