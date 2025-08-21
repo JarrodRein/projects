@@ -1,6 +1,6 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 n = int(input())
-m = set(int, input().split())
+m = set(map(int, input().split()))
 n1 = int(input())
 
 for _ in range(n1):
