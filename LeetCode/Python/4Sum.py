@@ -12,4 +12,8 @@ class Solution:
                 # Skip duplicate second elements
                 if j > i + 1 and nums[j] == nums[j - 1]:
                     continue
-               
+                # Two pointers for the other two elements
+                target_2 = target - nums[i] - nums[j]
+                l, r = j + 1, n - 1  # Two pointers start after the second element and at the end of the list
+                # Move pointers towards each other
+                
