@@ -7,5 +7,8 @@ m = int(input())
 total = 0
 for _ in range(m):
     a, b = map(int, input().split())
-
+    if items[a]:
+        total += b
+        items[a] -= 1
+print(total)
     
