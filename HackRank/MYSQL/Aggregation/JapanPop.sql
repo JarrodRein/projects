@@ -6,3 +6,4 @@
     3. Type your code immediately after comment. Don't leave any blank line.
 */
 
+SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE = 'JPN';
