@@ -1,23 +1,25 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-n = int(input())
+from collections import deque
+import sys
 
-for _ in range(n):
-    m = int(input())
-    l = list(map(int, input().split()))
-
-    for i in range(m):
-        if l[0] >= l[-1]:
-            l.pop(0)
-        else:
-            l.pop()
-        if not l:
-            print("Yes")
-            break
-
-        if l[0] < l[-1]:
-            print("No")
-            break  
-
-        else:
-            print("Yes")    
+t = int(sys.stdin.readline())
+for _ in range(t):
+    n = int(sys.stdin.readline())
+    cubes = deque(map(int, sys.stdin.readline().split()))
     
+    prev = float('inf')       # last placed cube (top of stack), start as infinity
+    possible = True
+
+    while cubes and possible:
+        left, right = cubes[0], cubes[-1]
+        pick = left if left >= right else right  # pick the larger end
+
+        if pick <= prev:
+            if pick == left:
+                cubes.popleft()
+            else:
+                cubes.pop()
+            prev = pick
+        else:
+            possible = False
+
+    print("Yes" if possible else "No")
