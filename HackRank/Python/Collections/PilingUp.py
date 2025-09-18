@@ -3,6 +3,21 @@ n = int(input())
 
 for _ in range(n):
     m = int(input())
+    l = list(map(int, input().split()))
 
-    For i in range(m):
+    for i in range(m):
+        if l[0] >= l[-1]:
+            l.pop(0)
+        else:
+            l.pop()
+        if not l:
+            print("Yes")
+            break
+
+        if l[0] < l[-1]:
+            print("No")
+            break  
+
+        else:
+            print("Yes")    
     
