@@ -1,12 +1,10 @@
-#!/bin/python3
+from collections import Counter
 
-import math
-import os
-import random
-import re
-import sys
+s = input().strip()
 
+# count each character
+cnt = Counter(s)
 
-
-if __name__ == '__main__':
-    s = input()
+# sort by (-frequency, character) and take top 3
+for ch, c in sorted(cnt.items(), key=lambda x: (-x[1], x[0]))[:3]:
+    print(ch, c)
