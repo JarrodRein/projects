@@ -6,4 +6,8 @@
     3. Type your code immediately after comment. Don't leave any blank line.
 */
 
-SELECT SUM(salary * months) FROM Employee;
+SELECT salary * months, COUNT(*)
+FROM Employee
+GROUP BY salary * months
+ORDER BY salary * months DESC
+FETCH FIRST 1 ROWS ONLY;
