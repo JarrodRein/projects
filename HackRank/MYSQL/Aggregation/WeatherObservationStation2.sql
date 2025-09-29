@@ -4,3 +4,7 @@
     2. The AS keyword causes errors, so follow this convention: "Select t.Field From table1 t" instead of "select t.Field From table1 AS t"
     3. Type your code immediately after comment. Don't leave any blank line.
 */
+SELECT
+    CAST(ROUND(SUM(LAT_N), 2) AS DECIMAL(10,2))  AS LAT_N,
+    CAST(ROUND(SUM(LONG_W), 2) AS DECIMAL(10,2)) AS LONG_W
+FROM STATION;
