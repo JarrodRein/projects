@@ -5,3 +5,7 @@
     2. The AS keyword causes errors, so follow this convention: "Select t.Field From table1 t" instead of "select t.Field From table1 AS t"
     3. Type your code immediately after comment. Don't leave any blank line.
 */
+SELECT
+    CAST(ROUND(SUM(LAT_N), 4) AS DECIMAL(10,4))  AS LAT_N
+FROM STATION
+WHERE LAT_N > 38.7880 AND LAT_N < 137.2345;
