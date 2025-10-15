@@ -4,28 +4,21 @@ class Solution:
         if n < 2:
             return 0
 
-        # Step 1: left-to-right increasing run lengths
+        # inc[i] = length of strictly increasing run ending at i
         inc = [1] * n
         for i in range(1, n):
             if nums[i] > nums[i - 1]:
                 inc[i] = inc[i - 1] + 1
-            else:
-                inc[i] = 1
 
-        # Step 2: right-to-left increasing run lengths
+        # dec[i] = length of strictly increasing run starting at i
         dec = [1] * n
         for i in range(n - 2, -1, -1):
             if nums[i] < nums[i + 1]:
                 dec[i] = dec[i + 1] + 1
-            else:
-                dec[i] = 1
 
-        # Step 3: check boundaries
-        max_k = 0
+        # Try every split (between i-1 and i), no boundary restriction
+        ans = 0
         for i in range(1, n):
-            if nums[i - 1] >= nums[i]:  # boundary between increasing runs
-                left_len = inc[i - 1]
-                right_len = dec[i]
-                max_k = max(max_k, min(left_len, right_len))
+            ans = max(ans, min(inc[i - 1], dec[i]))
 
-        return max_k
+        return ans
