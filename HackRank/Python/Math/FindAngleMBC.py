@@ -4,4 +4,4 @@ n = int(input())
 m = int(input())
 
 angle_MBC = math.degrees(math.atan2(n, m))
-print(int(angle_MBC))   
+print(str(round(angle_MBC)) + chr(176)) 
