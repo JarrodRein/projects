@@ -1,15 +1,32 @@
+SET NULL "NULL";
+SET FEEDBACK OFF;
+SET ECHO OFF;
+SET HEADING OFF;
+SET WRAP OFF;
+SET LINESIZE 10000;
+SET TAB OFF;
+SET PAGES 0;
+SET DEFINE OFF;
 
 /*
-    Enter your query here and follow these instructions:
-    1. Please append a semicolon ";" at the end of the query and enter your query in a single line to avoid error.
-    2. The AS keyword causes errors, so follow this convention: "Select t.Field From table1 t" instead of "select t.Field From table1 AS t"
-    3. Type your code immediately after comment. Don't leave any blank line.
+Enter your query here.
+Please append a semicolon ";" at the end of the query and enter your query in a single line to avoid error.
 */
-SELECT TO_NUMBER(
-    CAST(
-        ROUND(
-            MIN(LAT_N) + MIN(LONG_W)
-        , 4
-        )
-    )   AS DECIMAL(9,4))
+SELECT ROUND(MEDIAN(LAT_N), 4)
 FROM STATION;
+exit;
+
+
+/* or DB2
+    Enter your query here.
+    Please append a semicolon ";" at the end of the query and enter your query in a single line to avoid error.
+*/
+
+SELECT ROUND(AVG(LAT_N), 4)
+FROM (
+    SELECT LAT_N,
+           ROW_NUMBER() OVER (ORDER BY LAT_N) AS rn,
+           COUNT(*) OVER () AS total
+    FROM STATION
+) tmp
+WHERE rn IN (CEIL(total / 2.0), FLOOR(total / 2.0) + 1);
