@@ -1,7 +1,7 @@
 class Solution:
     def smallestNumber(self, n: int) -> int:
-        result = 0 
-        for i in range(n):
-            result |= (1 << i)
-        return result
+        x = 1
+        while (1 << x ) - 1 < n:
+            x+=1
+        return (1 << x ) - 1
     
