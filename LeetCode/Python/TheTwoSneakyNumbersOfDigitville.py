@@ -9,7 +9,7 @@ class Solution:
                     results.append(current)
         return results
     
-    class Solution:
+class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
         res = []
         n = len(nums)
