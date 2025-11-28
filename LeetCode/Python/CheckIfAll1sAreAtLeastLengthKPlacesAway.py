@@ -1,11 +1,9 @@
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
-        count = 0 # Count of zeros between 1s
-        for num in nums:
+        prev = -1
+        for i, num in enumerate(nums):
             if num == 1:
-                if count < k and count != 0: #check if there are enough zeros between 1s
-                    return False #not enough zeros return False
-                count = 0 #reset count after encountering a 1
-            else:
-                count += 1 #increment count for zeros
-        return True #all 1s are at least k places away
+                if prev != -1 and i - prev - 1 < k:
+                    return False
+                prev = i
+        return True
