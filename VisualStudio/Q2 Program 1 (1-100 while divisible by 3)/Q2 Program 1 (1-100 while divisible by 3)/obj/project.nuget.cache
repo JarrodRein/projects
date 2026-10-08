@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RsMwmwCgGL6hEK0PsDhXjaaQOPkY8mcduTp9YDDvTw5r4ca8FEbBVYJqJNWqhXI0LaxO8eLikBrfyvZbmD4Clg==",
+  "dgSpecHash": "3YXOhl5YMSM=",
   "success": true,
-  "projectFilePath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
