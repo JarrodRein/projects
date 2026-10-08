@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Sxn/prbCMRPmhVNb67L9Fd3DekmOuH8A98MkxTbkxasGUKUuxnUdRV5hS6i2SrC/JDYu/G8Vj4iQJjnKfaz6fQ==",
+  "dgSpecHash": "pSnN2AA5JZE=",
   "success": true,
-  "projectFilePath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q1 Program 2\\Q1 Program 2\\Q1 Program 2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding Projects\\projects\\VisualStudio\\Q1 Program 2\\Q1 Program 2\\Q1 Program 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

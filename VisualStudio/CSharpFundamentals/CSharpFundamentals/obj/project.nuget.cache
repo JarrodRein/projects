@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ynklw/h/+rh2/eV8tqAJ+ELOY/DGhem6xRoPwHRByjFs9dnl7y6hj4NLuMeB2AwtSAKe0b2zEJWrOoJoWlrSUw==",
+  "dgSpecHash": "oLtBAugiPXg=",
   "success": true,
-  "projectFilePath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\CSharpFundamentals\\CSharpFundamentals\\CSharpFundamentals.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding Projects\\projects\\VisualStudio\\CSharpFundamentals\\CSharpFundamentals\\CSharpFundamentals.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

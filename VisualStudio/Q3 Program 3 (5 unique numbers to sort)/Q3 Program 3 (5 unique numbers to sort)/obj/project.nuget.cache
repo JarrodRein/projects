@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cmhevV89bA1llkY5UgIuHfh9SvM2ZZqYulFIFX8tEI7oveIgyHVxS9kmjedylmARNDxGo3CZpD6e3Uo4G+iV4Q==",
+  "dgSpecHash": "KJ3xzOAe+o0=",
   "success": true,
-  "projectFilePath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding Projects\\projects\\VisualStudio\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort)\\Q3 Program 3 (5 unique numbers to sort).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

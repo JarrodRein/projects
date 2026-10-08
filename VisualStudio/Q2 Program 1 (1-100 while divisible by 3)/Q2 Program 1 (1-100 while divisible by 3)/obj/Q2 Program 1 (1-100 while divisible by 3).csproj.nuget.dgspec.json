@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj": {}
+    "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj": {}
   },
   "projects": {
-    "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj": {
+    "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
+        "projectUniqueName": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
         "projectName": "Q2 Program 1 (1-100 while divisible by 3)",
-        "projectPath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
+        "projectPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3).csproj",
         "packagesPath": "C:\\Users\\jarro\\.nuget\\packages\\",
-        "outputPath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\obj\\",
+        "outputPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 1 (1-100 while divisible by 3)\\Q2 Program 1 (1-100 while divisible by 3)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jarro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "net6.0": {
+            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -34,10 +35,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net6.0": {
+          "framework": "net6.0",
           "targetAlias": "net6.0",
           "imports": [
             "net461",
@@ -45,16 +53,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

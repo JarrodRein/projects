@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding Projects\\projects\\VisualStudio\\Q1 Program 2\\Q1 Program 2\\Q1 Program 2.csproj",
-      "projectName": "Q1 Program 2",
-      "projectPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q1 Program 2\\Q1 Program 2\\Q1 Program 2.csproj",
+      "projectUniqueName": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 5 (enter numbers and return largest number)\\Q2 Program 5 (enter numbers and return largest number)\\Q2 Program 5 (enter numbers and return largest number).csproj",
+      "projectName": "Q2 Program 5 (enter numbers and return largest number)",
+      "projectPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 5 (enter numbers and return largest number)\\Q2 Program 5 (enter numbers and return largest number)\\Q2 Program 5 (enter numbers and return largest number).csproj",
       "packagesPath": "C:\\Users\\jarro\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q1 Program 2\\Q1 Program 2\\obj\\",
+      "outputPath": "D:\\Coding Projects\\projects\\VisualStudio\\Q2 Program 5 (enter numbers and return largest number)\\Q2 Program 5 (enter numbers and return largest number)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jarro\\AppData\\Roaming\\NuGet\\NuGet.Config",

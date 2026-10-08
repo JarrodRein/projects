@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4aiovosQ5nojdtcylXZTu3fJC1kXQnmhBtTBXGuNge+gfuVOU1PyIjKxP31vxJDtvKlSe/wpqiAwRpYkZ//01g==",
+  "dgSpecHash": "ffncBCDmmG8=",
   "success": true,
-  "projectFilePath": "D:\\job stuff\\Projects\\visualStudioProjects\\VisualStudio\\Q3 Program 4 (list of user numbers but only uniques)\\Q3 Program 4 (list of user numbers but only uniques)\\Q3 Program 4 (list of user numbers but only uniques).csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Coding Projects\\projects\\VisualStudio\\Q3 Program 4 (list of user numbers but only uniques)\\Q3 Program 4 (list of user numbers but only uniques)\\Q3 Program 4 (list of user numbers but only uniques).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\jarro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }
